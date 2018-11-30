@@ -15,6 +15,11 @@
 		484FDE0921B0E4D300FF4886 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 484FDE0821B0E4D300FF4886 /* main.m */; };
 		484FDE1321B0E4D300FF4886 /* SHPayPasswordTextDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 484FDE1221B0E4D300FF4886 /* SHPayPasswordTextDemoTests.m */; };
 		484FDE1E21B0E4D300FF4886 /* SHPayPasswordTextDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 484FDE1D21B0E4D300FF4886 /* SHPayPasswordTextDemoUITests.m */; };
+		484FDE2E21B0E69700FF4886 /* SHLineView.m in Sources */ = {isa = PBXBuildFile; fileRef = 484FDE2D21B0E69700FF4886 /* SHLineView.m */; };
+		484FDE3121B0E6EA00FF4886 /* SHPasswordTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 484FDE3021B0E6EA00FF4886 /* SHPasswordTextView.m */; };
+		484FDE3421B169F100FF4886 /* aaa.gif in Resources */ = {isa = PBXBuildFile; fileRef = 484FDE3321B169F000FF4886 /* aaa.gif */; };
+		484FDE3621B169FE00FF4886 /* 密码--.gif in Resources */ = {isa = PBXBuildFile; fileRef = 484FDE3521B169FE00FF4886 /* 密码--.gif */; };
+		484FDE3821B16A0600FF4886 /* 动画--.gif in Resources */ = {isa = PBXBuildFile; fileRef = 484FDE3721B16A0600FF4886 /* 动画--.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +56,13 @@
 		484FDE1921B0E4D300FF4886 /* SHPayPasswordTextDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SHPayPasswordTextDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		484FDE1D21B0E4D300FF4886 /* SHPayPasswordTextDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SHPayPasswordTextDemoUITests.m; sourceTree = "<group>"; };
 		484FDE1F21B0E4D300FF4886 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		484FDE2C21B0E69700FF4886 /* SHLineView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SHLineView.h; sourceTree = "<group>"; };
+		484FDE2D21B0E69700FF4886 /* SHLineView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SHLineView.m; sourceTree = "<group>"; };
+		484FDE2F21B0E6EA00FF4886 /* SHPasswordTextView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SHPasswordTextView.h; sourceTree = "<group>"; };
+		484FDE3021B0E6EA00FF4886 /* SHPasswordTextView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SHPasswordTextView.m; sourceTree = "<group>"; };
+		484FDE3321B169F000FF4886 /* aaa.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = aaa.gif; sourceTree = "<group>"; };
+		484FDE3521B169FE00FF4886 /* 密码--.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "密码--.gif"; sourceTree = "<group>"; };
+		484FDE3721B16A0600FF4886 /* 动画--.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "动画--.gif"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +94,7 @@
 			isa = PBXGroup;
 			children = (
 				484FDDF821B0E4CF00FF4886 /* SHPayPasswordTextDemo */,
+				484FDE3221B169D800FF4886 /* imagesGif */,
 				484FDE1121B0E4D300FF4886 /* SHPayPasswordTextDemoTests */,
 				484FDE1C21B0E4D300FF4886 /* SHPayPasswordTextDemoUITests */,
 				484FDDF721B0E4CF00FF4886 /* Products */,
@@ -101,6 +114,7 @@
 		484FDDF821B0E4CF00FF4886 /* SHPayPasswordTextDemo */ = {
 			isa = PBXGroup;
 			children = (
+				484FDE2B21B0E61B00FF4886 /* SHPayPasswordTextView */,
 				484FDDF921B0E4CF00FF4886 /* AppDelegate.h */,
 				484FDDFA21B0E4CF00FF4886 /* AppDelegate.m */,
 				484FDDFC21B0E4CF00FF4886 /* ViewController.h */,
@@ -130,6 +144,27 @@
 				484FDE1F21B0E4D300FF4886 /* Info.plist */,
 			);
 			path = SHPayPasswordTextDemoUITests;
+			sourceTree = "<group>";
+		};
+		484FDE2B21B0E61B00FF4886 /* SHPayPasswordTextView */ = {
+			isa = PBXGroup;
+			children = (
+				484FDE2C21B0E69700FF4886 /* SHLineView.h */,
+				484FDE2D21B0E69700FF4886 /* SHLineView.m */,
+				484FDE2F21B0E6EA00FF4886 /* SHPasswordTextView.h */,
+				484FDE3021B0E6EA00FF4886 /* SHPasswordTextView.m */,
+			);
+			path = SHPayPasswordTextView;
+			sourceTree = "<group>";
+		};
+		484FDE3221B169D800FF4886 /* imagesGif */ = {
+			isa = PBXGroup;
+			children = (
+				484FDE3721B16A0600FF4886 /* 动画--.gif */,
+				484FDE3521B169FE00FF4886 /* 密码--.gif */,
+				484FDE3321B169F000FF4886 /* aaa.gif */,
+			);
+			path = imagesGif;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -237,7 +272,10 @@
 			files = (
 				484FDE0621B0E4D300FF4886 /* LaunchScreen.storyboard in Resources */,
 				484FDE0321B0E4D300FF4886 /* Assets.xcassets in Resources */,
+				484FDE3421B169F100FF4886 /* aaa.gif in Resources */,
 				484FDE0121B0E4CF00FF4886 /* Main.storyboard in Resources */,
+				484FDE3621B169FE00FF4886 /* 密码--.gif in Resources */,
+				484FDE3821B16A0600FF4886 /* 动画--.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,7 +301,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				484FDDFE21B0E4CF00FF4886 /* ViewController.m in Sources */,
+				484FDE2E21B0E69700FF4886 /* SHLineView.m in Sources */,
 				484FDE0921B0E4D300FF4886 /* main.m in Sources */,
+				484FDE3121B0E6EA00FF4886 /* SHPasswordTextView.m in Sources */,
 				484FDDFB21B0E4CF00FF4886 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
