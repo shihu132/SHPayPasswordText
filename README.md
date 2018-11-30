@@ -3,6 +3,7 @@
 
 ###选择类型展示不同样式
 typedef NS_ENUM(NSInteger, SHPasswordTextType){
+
     SHPasswordTextTypeNormal                = 1 <<  0, /**默认 __*/
     SHPasswordTextTypeAnimation_line        = 1 <<  1, /**line动画__*/
     SHPasswordTextTypeAnimation_font        = 1 <<  2, /**字体动画__*/
@@ -22,10 +23,15 @@ typedef NS_ENUM(NSInteger, SHPasswordTextType){
     [self.view addSubview:_passwordTextView];
 }
 
+矩形显示支付密码图:
 
 ![](https://github.com/shihu132/SHPayPasswordText/blob/master/imagesGif/aaa.gif)
 
+安全密码支付图:
+
 ![](https://github.com/shihu132/SHPayPasswordText/blob/master/imagesGif/密码--.gif)
 
+
+动画输入密码图:
 
 ![](https://github.com/shihu132/SHPayPasswordText/blob/master/imagesGif/动画--.gif)
