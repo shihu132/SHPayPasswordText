@@ -23,8 +23,11 @@ typedef NS_ENUM(NSInteger, SHPasswordTextType){
     }];
     
     //_passwordTextView.passwordSecureEntry = YES;//安全密码
+    
     [self.view addSubview:_passwordTextView];
 }
+
+
 
 矩形显示支付密码图:
 
