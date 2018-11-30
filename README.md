@@ -1,7 +1,7 @@
 # SHPayPasswordText
 动画输入支付密码
 
-###选择类型展示不同样式
+选择类型展示不同样式
 typedef NS_ENUM(NSInteger, SHPasswordTextType){
 
     SHPasswordTextTypeNormal                = 1 <<  0, /**默认 __*/
@@ -14,11 +14,14 @@ typedef NS_ENUM(NSInteger, SHPasswordTextType){
 
 @property (nonatomic, strong) SHPasswordTextView *passwordTextView;
 
-###///MARK:- 实例化一个密码 显示view
+///MARK:- 实例化一个密码 显示view
+
 - (void)addPasswordTextView:(CGRect)frame {
+
     _passwordTextView = [[SHPasswordTextView alloc]initWithFrame:frame count:6 margin:20 passwordFont:50 forType:SHPasswordTextTypeRectangle block:^(NSString * _Nonnull passwordStr) {
         NSLog(@"shihu___passwordStr == %@",passwordStr);
     }];
+    
     //_passwordTextView.passwordSecureEntry = YES;//安全密码
     [self.view addSubview:_passwordTextView];
 }
