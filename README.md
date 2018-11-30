@@ -18,6 +18,7 @@ typedef NS_ENUM(NSInteger, SHPasswordTextType){
 
 - (void)addPasswordTextView:(CGRect)frame {
 
+
     _passwordTextView = [[SHPasswordTextView alloc]initWithFrame:frame count:6 margin:20 passwordFont:50 forType:SHPasswordTextTypeRectangle block:^(NSString * _Nonnull passwordStr) {
     
     
