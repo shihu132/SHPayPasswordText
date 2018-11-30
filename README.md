@@ -22,7 +22,7 @@ typedef NS_ENUM(NSInteger, SHPasswordTextType){
     [self.view addSubview:_passwordTextView];
 }
 
-![]()
+![](https://github.com/shihu132/SHPayPasswordText/blob/master/imagesGif/aaa.gif)
 
 ![]()
 
